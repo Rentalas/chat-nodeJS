@@ -1,0 +1,20 @@
+{
+  "name": "chat-web-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "ws": "^8.14.1"
+  },
+  "optionalDependencies": {
+    "utf-8-validate": "^6.0.3"
+  }
+}
